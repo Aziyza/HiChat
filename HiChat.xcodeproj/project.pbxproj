@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		044CF61A26D0EAEB00F64441 /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044CF61826D0EAEB00F64441 /* ChatCell.swift */; };
+		044CF61B26D0EAEB00F64441 /* ChatCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 044CF61926D0EAEB00F64441 /* ChatCell.xib */; };
+		044CF61F26D0EF2300F64441 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044CF61D26D0EF2300F64441 /* ChatVC.swift */; };
+		044CF62026D0EF2300F64441 /* ChatVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 044CF61E26D0EF2300F64441 /* ChatVC.xib */; };
+		04AE4CBB26D0055F00A7A42B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AE4CBA26D0055F00A7A42B /* AppDelegate.swift */; };
+		04AE4CC426D0056100A7A42B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04AE4CC326D0056100A7A42B /* Assets.xcassets */; };
+		04AE4CC726D0056100A7A42B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04AE4CC526D0056100A7A42B /* LaunchScreen.storyboard */; };
+		04AE4CD426D005B700A7A42B /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AE4CD226D005B700A7A42B /* RegisterVC.swift */; };
+		04AE4CD526D005B700A7A42B /* RegisterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04AE4CD326D005B700A7A42B /* RegisterVC.xib */; };
+		04AE4CDF26D013FA00A7A42B /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AE4CDD26D013FA00A7A42B /* SignUpVC.swift */; };
+		04AE4CE026D013FA00A7A42B /* SignUpVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04AE4CDE26D013FA00A7A42B /* SignUpVC.xib */; };
+		04AE4CE526D01B0B00A7A42B /* ChatListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AE4CE326D01B0B00A7A42B /* ChatListVC.swift */; };
+		04AE4CE626D01B0B00A7A42B /* ChatListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04AE4CE426D01B0B00A7A42B /* ChatListVC.xib */; };
+		04AE4CEB26D01F3800A7A42B /* ChatListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AE4CE926D01F3800A7A42B /* ChatListCell.swift */; };
+		04AE4CEC26D01F3800A7A42B /* ChatListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04AE4CEA26D01F3800A7A42B /* ChatListCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		044CF61826D0EAEB00F64441 /* ChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatCell.swift; sourceTree = "<group>"; };
+		044CF61926D0EAEB00F64441 /* ChatCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatCell.xib; sourceTree = "<group>"; };
+		044CF61D26D0EF2300F64441 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
+		044CF61E26D0EF2300F64441 /* ChatVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatVC.xib; sourceTree = "<group>"; };
+		04AE4CB726D0055F00A7A42B /* HiChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HiChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04AE4CBA26D0055F00A7A42B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04AE4CC326D0056100A7A42B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04AE4CC626D0056100A7A42B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04AE4CC826D0056100A7A42B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04AE4CD226D005B700A7A42B /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		04AE4CD326D005B700A7A42B /* RegisterVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterVC.xib; sourceTree = "<group>"; };
+		04AE4CDD26D013FA00A7A42B /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		04AE4CDE26D013FA00A7A42B /* SignUpVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignUpVC.xib; sourceTree = "<group>"; };
+		04AE4CE326D01B0B00A7A42B /* ChatListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListVC.swift; sourceTree = "<group>"; };
+		04AE4CE426D01B0B00A7A42B /* ChatListVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatListVC.xib; sourceTree = "<group>"; };
+		04AE4CE926D01F3800A7A42B /* ChatListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListCell.swift; sourceTree = "<group>"; };
+		04AE4CEA26D01F3800A7A42B /* ChatListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatListCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04AE4CB426D0055F00A7A42B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04AE4CAE26D0055F00A7A42B = {
+			isa = PBXGroup;
+			children = (
+				04AE4CB926D0055F00A7A42B /* HiChat */,
+				04AE4CB826D0055F00A7A42B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04AE4CB826D0055F00A7A42B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04AE4CB726D0055F00A7A42B /* HiChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04AE4CB926D0055F00A7A42B /* HiChat */ = {
+			isa = PBXGroup;
+			children = (
+				04AE4CD826D00C9200A7A42B /* Model */,
+				04AE4CD726D00C8400A7A42B /* View */,
+				04AE4CD926D00C9B00A7A42B /* ViewModel */,
+				04AE4CBA26D0055F00A7A42B /* AppDelegate.swift */,
+				04AE4CC326D0056100A7A42B /* Assets.xcassets */,
+				04AE4CC526D0056100A7A42B /* LaunchScreen.storyboard */,
+				04AE4CC826D0056100A7A42B /* Info.plist */,
+			);
+			path = HiChat;
+			sourceTree = "<group>";
+		};
+		04AE4CD726D00C8400A7A42B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04AE4CDA26D00CB700A7A42B /* Controller */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04AE4CD826D00C9200A7A42B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04AE4CD926D00C9B00A7A42B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		04AE4CDA26D00CB700A7A42B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04AE4CE826D01F1B00A7A42B /* Cell */,
+				04AE4CD226D005B700A7A42B /* RegisterVC.swift */,
+				04AE4CD326D005B700A7A42B /* RegisterVC.xib */,
+				04AE4CDD26D013FA00A7A42B /* SignUpVC.swift */,
+				04AE4CDE26D013FA00A7A42B /* SignUpVC.xib */,
+				04AE4CE326D01B0B00A7A42B /* ChatListVC.swift */,
+				04AE4CE426D01B0B00A7A42B /* ChatListVC.xib */,
+				044CF61D26D0EF2300F64441 /* ChatVC.swift */,
+				044CF61E26D0EF2300F64441 /* ChatVC.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		04AE4CE826D01F1B00A7A42B /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				04AE4CE926D01F3800A7A42B /* ChatListCell.swift */,
+				04AE4CEA26D01F3800A7A42B /* ChatListCell.xib */,
+				044CF61826D0EAEB00F64441 /* ChatCell.swift */,
+				044CF61926D0EAEB00F64441 /* ChatCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04AE4CB626D0055F00A7A42B /* HiChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04AE4CCB26D0056100A7A42B /* Build configuration list for PBXNativeTarget "HiChat" */;
+			buildPhases = (
+				04AE4CB326D0055F00A7A42B /* Sources */,
+				04AE4CB426D0055F00A7A42B /* Frameworks */,
+				04AE4CB526D0055F00A7A42B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HiChat;
+			productName = HiChat;
+			productReference = 04AE4CB726D0055F00A7A42B /* HiChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04AE4CAF26D0055F00A7A42B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					04AE4CB626D0055F00A7A42B = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 04AE4CB226D0055F00A7A42B /* Build configuration list for PBXProject "HiChat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04AE4CAE26D0055F00A7A42B;
+			productRefGroup = 04AE4CB826D0055F00A7A42B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04AE4CB626D0055F00A7A42B /* HiChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04AE4CB526D0055F00A7A42B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044CF61B26D0EAEB00F64441 /* ChatCell.xib in Resources */,
+				04AE4CE626D01B0B00A7A42B /* ChatListVC.xib in Resources */,
+				04AE4CEC26D01F3800A7A42B /* ChatListCell.xib in Resources */,
+				04AE4CE026D013FA00A7A42B /* SignUpVC.xib in Resources */,
+				044CF62026D0EF2300F64441 /* ChatVC.xib in Resources */,
+				04AE4CD526D005B700A7A42B /* RegisterVC.xib in Resources */,
+				04AE4CC726D0056100A7A42B /* LaunchScreen.storyboard in Resources */,
+				04AE4CC426D0056100A7A42B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04AE4CB326D0055F00A7A42B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04AE4CE526D01B0B00A7A42B /* ChatListVC.swift in Sources */,
+				044CF61F26D0EF2300F64441 /* ChatVC.swift in Sources */,
+				04AE4CBB26D0055F00A7A42B /* AppDelegate.swift in Sources */,
+				04AE4CDF26D013FA00A7A42B /* SignUpVC.swift in Sources */,
+				04AE4CEB26D01F3800A7A42B /* ChatListCell.swift in Sources */,
+				04AE4CD426D005B700A7A42B /* RegisterVC.swift in Sources */,
+				044CF61A26D0EAEB00F64441 /* ChatCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04AE4CC526D0056100A7A42B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04AE4CC626D0056100A7A42B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04AE4CC926D0056100A7A42B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04AE4CCA26D0056100A7A42B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04AE4CCC26D0056100A7A42B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PN5QG2Z2AV;
+				INFOPLIST_FILE = HiChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mac.uz.HiChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		04AE4CCD26D0056100A7A42B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PN5QG2Z2AV;
+				INFOPLIST_FILE = HiChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mac.uz.HiChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04AE4CB226D0055F00A7A42B /* Build configuration list for PBXProject "HiChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04AE4CC926D0056100A7A42B /* Debug */,
+				04AE4CCA26D0056100A7A42B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04AE4CCB26D0056100A7A42B /* Build configuration list for PBXNativeTarget "HiChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04AE4CCC26D0056100A7A42B /* Debug */,
+				04AE4CCD26D0056100A7A42B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04AE4CAF26D0055F00A7A42B /* Project object */;
+}
